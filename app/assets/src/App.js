@@ -9,6 +9,8 @@ topBarClientPromise.then(function(topBarClient) {
   topBarClient.invoke('popover');
 });
 
+const div = document.getElementById("DivPriciple")
+
 const textarea = document.createElement("textarea")
 textarea.setAttribute('maxlength', 5000);
 textarea.setAttribute('cols', 80);
