@@ -49,11 +49,11 @@ functio getAll(){
 
 
 function getData(){
-
+const data = client.ticket.description
   
 }
 textarea(data)
-editButton()
+editButton(getData())
 div.appendChild(textarea)
 div.appendChild(editButton)
 import Main from "./Main.js";
